@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: ppmori-extralight;
+    src: url(./assets/fonts/ppmori-extralight.otf);
+  }
+  @font-face {
+    font-family: ppmori-regular;
+    src: url(./assets/fonts/ppmori-regular.otf);
+  }
+  @font-face {
+    font-family: ppmori-semibold;
+    src: url(./assets/fonts/ppmori-semibold.otf);
+  }
+
+  body {
+    @apply bg-[#F5F5F5] font-ppmori text-dark overflow-x-hidden;
+  }
+
+  .maxW {
+    @apply max-w-screen-xl mx-auto;
+  }
+  .padX {
+    @apply px-8 max-md:px-6 max-sm:px-3;
+  }
+}
