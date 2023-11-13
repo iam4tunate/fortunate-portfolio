@@ -29,7 +29,7 @@ const Projects = () => {
               to="https://armourone.netlify.app/"
               className="w-fit after:h-[2px] after:w-full after:block after:bg-dark"
             >
-              <div className="flex items-center gap-x-1.5">
+              <div className="flex items-center gap-x-1.5 max-sm:text-base">
                 <span>Live preview</span>
                 <BsArrowUpRight />
               </div>
@@ -51,7 +51,7 @@ const Projects = () => {
               to="https://movielux.netlify.app/"
               className="w-fit after:h-[2px] after:w-full after:block after:bg-dark"
             >
-              <div className="flex items-center gap-x-1.5">
+              <div className="flex items-center gap-x-1.5 max-sm:text-base">
                 <span>Live preview</span>
                 <BsArrowUpRight />
               </div>
@@ -73,7 +73,7 @@ const Projects = () => {
               to="https://b-uu.netlify.app/"
               className="w-fit after:h-[2px] after:w-full after:block after:bg-dark"
             >
-              <div className="flex items-center gap-x-1.5">
+              <div className="flex items-center gap-x-1.5 max-sm:text-base">
                 <span>Live preview</span>
                 <BsArrowUpRight />
               </div>
